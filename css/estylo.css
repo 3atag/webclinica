@@ -1,0 +1,702 @@
+/* CSS Document */
+
+/* Web Clinica Privada Hispano Argentina - xhtml */
+
+
+/* Elementos HTML */
+
+html {
+  font-size: 62.5%; /* Reset para REMS - 62.5% = 10px de 16px */
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.6rem;
+  line-height: 1.8;
+}
+
+img {
+  max-width: 100%;
+}
+
+h1, h2, h3, h4 {    
+  font-family: 'PT Sans', sans-serif;
+}
+
+.texto-general {
+  font-size: 1.6px;
+}
+
+/* Globales */
+
+
+/* Utilidades */
+
+.contenedor {
+  width: 95%;
+  max-width: 120rem;
+  margin: 0 auto;
+}
+
+.contenedor-reducido {
+  width: 95%;
+  max-width: 100rem;
+  margin: 0 auto;
+}
+
+.no-margin  {
+  margin: 0;
+}
+
+.vermas {
+  text-transform: uppercase;
+  color:#486e7d;
+  font-size: 1.3rem;
+  text-align: right;
+  display:block;
+  font-weight: 700;
+}
+
+.vermas:hover {
+  text-decoration: none;
+  color:#486e7d;
+  opacity: .5;
+
+}
+
+/**** INDEX ****/
+
+/* Header */
+#cabecera {
+-webkit-box-shadow: 0 0 2rem 0.1rem rgba(0,0,0,0.75);
+-moz-box-shadow: 0 0 2rem 0.1rem rgba(0,0,0,0.75);
+box-shadow: 0 0 2rem 0.1rem rgba(0,0,0,0.75);
+position:  relative;
+z-index: 2;
+}
+
+.botonera-header {
+  background-color:#5e8392;
+  font-size:1rem;
+  border-bottom: 0.1rem solid #dcd6d6; 
+}
+
+@media (min-width:768px) {
+  .botonera-header {
+    font-size: 1.3rem;
+  }  
+}
+
+.contenido-botonera-header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.contenido-botonera-header p {
+  margin-right: 2rem;
+  color:white;
+  font-size: .9rem;
+}
+
+@media (min-width:768px) {
+  .contenido-botonera-header p {
+    font-size:1.3rem;
+  }
+}
+
+.contenido-botonera-header a {
+  display: inline-block;
+  padding: 0.5rem 1.3rem;
+  color:#ccc;
+  background:#486e7d;
+  }
+
+.contenido-botonera-header a:hover {
+  color: #000;
+  background-color: #ccc;
+  text-decoration: none;
+}
+
+.contenido-botonera-header a i {
+  margin-right: 0.8rem;
+}
+
+.btnPrinMargenLeft{
+    color: #fff;
+    margin-right: 0.8rem;
+}
+
+.contenedor-brand {
+  display: flex;
+}
+#menuPrincipal a {
+    display: inline-block;
+    font-size: 1.3rem;
+    color: black;
+}
+
+@media (min-width:768px) {
+  #menuPrincipal a {  
+    font-size: .9rem;  
+}
+
+@media (min-width:857px) {
+  #menuPrincipal a {  
+    font-size: 1.1rem;  
+}
+}
+
+}
+
+@media (min-width:946px) {
+  #menuPrincipal a {  
+    font-size: 1.3rem;  
+}
+  
+}
+
+#menuPrincipal a:hover {
+    text-decoration: none;
+    color: #89bdd3;
+}
+
+/* Slider --- Usando Swiper */
+
+  .swiper-container {
+      width: 100%;
+      height: 100%;
+      position: relative;
+      z-index: 1;
+    }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 1.8rem;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+
+
+/* Destacados */
+
+.cont-destacados {
+  margin-bottom: 1rem;
+}
+
+.cont-destacados h1 {
+  font-size: 2.2rem;
+  font-weight: 700;
+  padding-bottom: 1rem;
+  color:#486e7d;
+  margin-top: 1.5rem;
+}
+
+.articulos-destaca {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;  
+  margin-bottom: 8rem;
+}
+
+.articulo-desta {
+  border:1px solid #b5b5b5;
+  background-color: #f5f5f5;
+  margin-bottom: 1rem;
+}
+
+@media (min-width: 486px) {
+  .articulo-desta {
+    flex: 0 0 calc(50% - 1rem);
+  }   
+}
+
+@media (min-width: 992px) {
+  .articulo-desta {
+    flex: 0 0 calc(25% - 1rem);
+  }   
+}
+
+.img-destaca:hover {
+  opacity: 0.5;
+}
+
+
+.titulo-destaca h2:hover {
+  opacity: 0.8;
+}
+
+.contenido-desta {
+  padding: 2rem;
+  min-width: 0;
+}
+
+.contenido-desta a {
+  color:#486e7d;
+}
+
+.contenido-desta a:hover {
+  opacity: 0.8;
+  text-decoration: none;
+}
+
+
+.contenido-desta h2 {
+  font-size: 2.3rem;
+  margin-bottom: 2rem;
+  color: #000;
+}
+
+.contenido-desta p {
+  line-height: 1.8;
+  font-size: 1.4rem;
+  text-align: justify;
+ 
+  -webkit-line-clamp: 3; /*Cantidad de líneas que desea mostrar*/
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+
+  margin-bottom: 3rem;
+}
+
+@media (min-width:486px) {
+
+  .contenido-desta p {
+    height: 15rem;
+  }
+  
+}
+
+
+/* Pie de Pagina */
+
+
+.footer-prin {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 3rem;
+}
+
+@media (min-width:992px) {
+  .footer-prin {
+    flex-direction: row;
+    justify-content: space-between;    
+  }
+  
+}
+
+
+#contenedor-logo-pie {
+  display: flex;
+  justify-content: center;
+}
+
+
+#contenedor-logo-pie strong {
+    color:#303030;
+    display: inline-block;
+    font-size: 1.4rem;
+}
+
+#contenedor-logo-pie img {
+  margin-right: 0.8rem;
+}
+
+.direcciones {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.direcciones-footer {
+    margin-right: 0.8rem;
+    font-size: 1.2rem;
+    color: #333333;
+}
+
+.direcciones-footer i {
+    margin-right: 0.5rem;
+}
+
+#contenedor-footer-cen {  
+  border-left: solid 0.1rem #486e7d;
+  border-right: solid 0.1rem #486e7d;
+}
+
+#contenedor-footer-cen a {
+    color:#303030;
+}
+
+#contenedor-footer-cen a:hover {
+  text-decoration: none;
+  opacity: 0.5;
+}
+
+#enlace-logo-pie {
+  display: block;
+  overflow: hidden;
+}
+
+#enlace-logo-pie:hover {
+  opacity: 0.5;
+  text-decoration: none;
+}
+
+#contenedor-footer-der p {
+    font-size: 1.2rem;
+}
+
+
+.site-footer {
+    padding-top: 2rem;
+    background: #5e8392;
+  
+}
+
+
+.subtitulo-footer {
+  color: #303030;
+  font-size: 1.2rem;
+}
+
+.enlaces-pie {
+  text-align: center;
+}
+
+.final-footer {
+  background-color:#486e7d;
+}
+
+.final-footer p {
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+.final-footer a {
+  color:#B2BABB;
+}
+
+.menu-pie {
+  display: none;
+}
+
+@media (min-width:992px) {
+  .menu-pie {
+    display: block;
+  }
+}
+
+.menu-pie ul {
+  list-style: none;
+  font-size: 1.2rem;
+}
+
+.menu-pie li {
+  margin-bottom: 0.1rem;
+  font-weight: bold;
+}
+
+.menu-pie li a {
+  color: #333333;
+  text-decoration:none;  
+}
+
+.menu-pie li a:hover {
+  opacity: 0.5;
+}
+
+#privacidad-modal p, #terminos-modal p {
+  text-align: justify;
+}
+
+#terminos-modal ul {
+  list-style: none;
+  text-align: justify;
+}
+
+#terminos-modal li {
+  margin-bottom: 0.5rem;
+}
+
+/*** INSTITUCIONAL ***/
+
+.subsite-header {
+  display: flex;
+  align-items: flex-end;
+
+  height: 20.5rem;
+  background-image: url("../images/institucional.jpg");
+  background-position:center bottom;
+  background-size: cover;
+}
+.contenedor-subpaginas {
+  margin-top:1rem;
+  display: flex;
+  flex-direction: column;  
+}
+
+@media (min-width:768px) {
+  .contenedor-subpaginas {    
+    flex-direction: row;
+    justify-content: space-between;  
+  }
+}
+
+@media (min-width:768px) {
+  .menu-subpaginas {
+    display: block;
+    flex: 0 0 calc(25% - 1rem);
+  }  
+}
+
+.contenido-subpaginas {
+  flex:100%;
+}
+
+@media (min-width:768px) {
+  .contenido-subpaginas {
+    margin-top: 2rem;
+    flex: 0 0 calc(75% - 1rem);
+  }  
+}
+
+.submenu-institucional, .submenu-nuestros {
+  font-size: 1.5rem;
+}
+
+.encabezado-subpaginas-nuestros {
+  height: 20.5rem;
+  background-image: url("../images/nuestros.jpg");
+  background-position:center bottom;
+  background-size: cover;
+}
+
+.subsite-header h1, .encabezado-subpaginas-nuestros h1  {
+  opacity: 0.7;
+  font-size: 3rem;
+  background-color: #fff;
+  display: inline-block;
+  padding-left:1rem; 
+  padding-right:3rem;
+  font-weight: 700; 
+}
+
+@media (min-width:486px) {
+  .subsite-header h1  {
+    padding-right:12rem;
+  }
+}
+
+.menu-subpaginas .active {
+  border-bottom: none;
+  border-top: none;
+  background-color: #5e8392;
+}
+
+.primer-enlace-submenu {
+  border: none;
+}
+
+.boton-submenu {
+  margin-bottom: 0.5rem;
+}
+@media (min-width:768px) {
+  .boton-submenu {
+    display: none;
+  }
+}
+.submenu-mobile {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.contenido-subpaginas {
+  margin-bottom: 10rem;
+}
+
+.contenido-subpaginas h2 {
+  padding-bottom: 0.8rem;
+  font-size: 2.1rem;
+  margin-bottom: 1.5rem;
+  text-transform: uppercase;
+}
+
+.contenido-subpaginas h2::after {
+  content: "";
+  display:block;
+  width: 8rem;
+  height: .5rem;
+  background-color: #486e7d;
+  margin-top: .9rem;
+}
+
+.contenido-subpaginas h3 {
+   margin-bottom: 3rem;
+   color: #486e7d;
+   font-size: 2.2rem;
+}
+
+.contenido-subpaginas h3 span {
+  font-weight: bold;
+}
+
+
+.contenido-subpaginas h4 {
+  margin-bottom: 2.5rem;
+  margin-top: 3rem;
+  font-size: 1.5rem;
+  padding-bottom: 1rem;
+  border-bottom: #ccc solid 0.1rem;
+  color: #486e7d;
+  font-weight: bold;
+}
+
+.contenido-subpaginas dl {
+  font-size: 1.6rem;
+  padding-bottom: 0.8rem;
+
+}
+
+.contenido-subpaginas dt {
+  padding-bottom: 0.8rem;
+
+}
+
+.cont-valores {
+  margin-bottom: 5rem;
+}
+
+.cont-texto-valores {
+  padding: 0 0 0 1.7rem;
+}
+
+#historia p,
+#valores p,
+#autoridades p,
+#comites p,
+#ubicacion p {
+  text-align: justify;
+  font-size: 1.6rem;
+}
+
+#valores ul {
+  display: flex;
+  flex-direction: column;
+  list-style: none; 
+  align-items: start;
+}
+
+#valores ul li {
+  text-align: center;
+  min-width:100%;
+  color: white;
+  font-weight: 700;
+  font-size: 1.8rem;
+  padding:1rem 0;  
+  border-radius: .5rem;
+  margin-bottom: 1.5rem;
+}
+
+@media (min-width:486px) {
+  #valores ul li {
+      min-width: 30rem;
+  }  
+  
+}
+
+.contenedor-consejo,
+.contenedor-direccion-med,
+.contenedor-direccion-adm {
+  margin-left: 3rem;
+  margin-bottom: 5rem;
+}
+
+
+.contenedor-cuentas {
+  margin-left: 2rem;
+}
+
+.contenedor-jurado {
+  margin-left: 2rem;
+}
+
+.contenedor-direccion-med p,
+.contenedor-direccion-adm p {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+
+/* Nuestros Servicios */
+
+#internacion p,
+#cirugia p,
+#guardia p,
+#uti p,
+#enfermeria p {
+ text-align: justify;
+ font-size: 1.6rem;
+}
+
+.texto-servicios {
+  margin-top: 1.5rem;
+}
+
+.texto-servicios p {
+  font-size: 1.6rem;
+}
+
+.texto-servicios ul {
+  font-size: 1.6rem;
+}
+
+#ubicacion h5 {
+  font-size: 1.7rem;
+}
+
+.acordeones h4 {
+  padding-bottom: 0;
+  border: none;
+  text-decoration: none;
+}
+
+.acordeones button {
+  font-size: 1.6rem;
+  text-decoration: none;
+}
+
+.acordeones button:hover, .acordeones button:focus {
+  text-decoration: none;
+}
+
+.medicos-especialidad p {
+  margin-left: 1rem;
+  margin-bottom: 0;
+  color: rgb(80, 80, 80);
+  font-size: 1.4rem;
+  margin-bottom: 0.8rem;
+
+}
+
+.medicos-especialidad p  span {
+  font-weight: 700;
+
+}
+
+.card-header {
+  border-bottom: none;
+}
