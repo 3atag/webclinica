@@ -216,6 +216,13 @@ z-index: 2;
   border:1px solid #b5b5b5;
   background-color: #f5f5f5;
   margin-bottom: 1rem;
+  transition: all .3s ease;
+}
+
+.articulo-desta:hover {
+  transform: scale(1.05);
+  border:1px solid #486e7d;
+  box-shadow: 0 0 5rem #666;
 }
 
 @media (min-width: 486px) {
