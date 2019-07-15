@@ -130,6 +130,8 @@ z-index: 2;
 .contenedor-brand {
   display: flex;
 }
+
+
 #menuPrincipal a {
     display: inline-block;
     font-size: 1.3rem;
