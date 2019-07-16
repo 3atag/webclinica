@@ -53,7 +53,13 @@
 		<div class="contenido-subpaginas">
 
 			<div id="internacion" class="primera">
-				<h2>Internación</h2>
+				<div class="submenu-mobile">
+					<h2>Internación</h2>
+
+					<button class="boton-submenu">
+						<span class="fas fa-indent fa"></span>
+					</button>
+				</div>
 
 				<div class="swiper-container" id="slide-interna">
 
@@ -346,7 +352,7 @@
 
 	<script>
 		var swiper = new Swiper('.swiper-container', {
-			slidesPerView:3,
+			slidesPerView: 3,
 			spaceBetween: 30,
 			slidesPerGroup: 3,
 			loop: true,
@@ -360,7 +366,6 @@
 				prevEl: '.swiper-button-prev',
 			},
 		});
-		
 	</script>
 
 </body>
