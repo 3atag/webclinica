@@ -10,6 +10,8 @@
 
 
 	<!-- Hojas de CSS -->
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans|PT+Sans:400,700&display=swap" rel="stylesheet">
+
 	<link href="css/normalize.css" rel="stylesheet" type="text/css" />
 	<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
 	<link href="swiper/css/swiper.min.css" rel="stylesheet" type="text/css" />
@@ -50,7 +52,7 @@
 
 		<div class="contenido-subpaginas">
 
-			<div id="internacion">
+			<div id="internacion" class="primera">
 				<h2>Internación</h2>
 
 				<div class="swiper-container" id="slide-interna">
@@ -331,20 +333,20 @@
 	?>
 
 	<!-- Scripts -->
-	<script type="text/javascript" src="jquery-3.3.1.min.js"></script>
+	<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
 	<!-- Scripts de Bootstrap -->
-	<script type="text/javascript" src="popper.min.js"></script>
+	<script type="text/javascript" src="js/popper.min.js"></script>
 	<script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
 	<!-- Scripts de Swiper -->
 	<script type="text/javascript" src="swiper/js/swiper.min.js"></script>
 
-	<script type="text/javascript" src="javascript.js"></script>
+	<script type="text/javascript" src="js/scripts.js"></script>
 
 	<!-- Scripts de Swiper -->
 
 	<script>
 		var swiper = new Swiper('.swiper-container', {
-			slidesPerView: 3,
+			slidesPerView:3,
 			spaceBetween: 30,
 			slidesPerGroup: 3,
 			loop: true,
@@ -358,7 +360,6 @@
 				prevEl: '.swiper-button-prev',
 			},
 		});
-
 		
 	</script>
 

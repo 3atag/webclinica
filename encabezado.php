@@ -28,19 +28,19 @@
 				<span class="navbar-toggler-icon"></span>
 			</button>
 
-			<div class="collapse navbar-collapse" id="navbar">
+			<div class="navegacion-principal collapse navbar-collapse" id="navbar">
 
 				<ul class="navbar-nav ml-auto">
 
-					<li class="navbar-item"><a href="institucional.php" class="text-uppercase nav-link px-3 py-md-4">Institucional</a></li>
+					<li class="navbar-item"><a href="institucional.php" class="text-uppercase nav-link">Institucional</a></li>
 
-					<li class="navbar-item"><a href="servicios.php" class="text-uppercase nav-link px-3 py-md-4">Nuestros servicios</a></li>
+					<li class="navbar-item"><a href="servicios.php" class="text-uppercase nav-link">Nuestros servicios</a></li>
 
-					<li class="navbar-item"><a href="#" class="text-uppercase nav-link px-3 py-md-4">Informaci&oacute;n para pacientes</a></li>
+					<li class="navbar-item"><a href="#" class="text-uppercase nav-link">Informaci&oacute;n para pacientes</a></li>
 
-					<li class="navbar-item"><a href="#" class="text-uppercase nav-link px-3 py-md-4">Plan de Salud</a></li>
+					<li class="navbar-item"><a href="#" class="text-uppercase nav-link">Plan de Salud</a></li>
 
-					<li class="navbar-item mb-3 mb-md-0"><a href="#" class="text-uppercase nav-link px-3 py-md-4">Contacto</a></li>
+					<li class="navbar-item"><a href="#" class="text-uppercase nav-link">Contacto</a></li>
 				</ul>
 
 			</div>

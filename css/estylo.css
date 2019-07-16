@@ -68,6 +68,12 @@ h4 {
 
 }
 
+.activo {
+  background-color: #5e8392;
+  color: white !important;
+}
+
+
 /**** INDEX ****/
 
 /* Header */
@@ -136,6 +142,7 @@ h4 {
 }
 
 
+
 #menuPrincipal a {
   display: inline-block;
   font-size: 1.3rem;
@@ -166,6 +173,18 @@ h4 {
   text-decoration: none;
   color: #89bdd3;
 }
+
+
+.navegacion-principal li a {
+  display: inline-block;  
+  padding: 2.3rem 1.2rem !important;
+  border-bottom: 8px solid white;
+}
+
+.navegacion-principal li a:hover {
+  border-bottom: 8px solid #486e7d;
+}
+
 
 /* Slider --- Usando Swiper */
 
@@ -459,7 +478,7 @@ h4 {
 }
 
 .contenedor-subpaginas {
-  margin-top:1rem;
+  margin-top: 1rem;
   display: grid;
   grid-template-columns: 100%;
   grid-column-gap: 1rem;
@@ -489,6 +508,11 @@ h4 {
   display: block;
   padding: .75rem 1.25rem;
   border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+.submenu-nuestros a:not(.activo):hover {
+  background-color: #f8f9fa;
+  color: #495057 !important;
 }
 
 .encabezado-subpaginas-nuestros {
@@ -542,8 +566,11 @@ h4 {
 }
 
 .contenido-subpaginas {
+  margin-top: 1rem;
   margin-bottom: 10rem;
 }
+
+
 
 .contenido-subpaginas h2 {
   padding-bottom: 0.8rem;

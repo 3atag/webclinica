@@ -126,9 +126,9 @@
       
 
 	<!-- Scripts -->
-	<script type="text/javascript" src="jquery-3.3.1.min.js"></script>
+	<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
 	<!-- Scripts de Bootstrap -->
-	<script type="text/javascript" src="popper.min.js"></script>
+	<script type="text/javascript" src="js/popper.min.js"></script>
 	<script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
 	<!-- Scripts de Swiper -->
 	<script type="text/javascript" src="swiper/js/swiper.min.js"></script>
