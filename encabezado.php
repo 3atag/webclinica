@@ -3,8 +3,16 @@
 	<div class="botonera-header">
 
 		<div class="contenedor contenido-botonera-header">
-			<p class="no-margin"><i class="fas fa-phone fa-rotate-90 fa-sm"></i> Policonsultorios: (02983) 431787 | 434300</p>
-			<a href="http://intranet.clinicahispano.com.ar"><i class="fas fa-lock"></i><span>INTRANET</span></a>
+			<div class="intranet-boton">
+				<a href="https://intranet.clinicahispano.com.ar"><i class="fas fa-lock"></i><span>INTRANET</span></a>
+			</div>
+
+			<div class="contactos-consultorios">
+				<p class="no-margin"><i class="fas fa-phone fa-rotate-90 fa-sm"></i> Policonsultorios: (02983) 431787 | 434300</p>
+				<p class="no-margin"><i class="fab fa-whatsapp fa-lg"></i> Turnos por Whatsapp: 2983559992</p>
+				<a href="https://turnoshispano.drapp.com.ar"><i class="fas fa-lock"></i><span>TURNOS ONLINE</span></a>
+			</div>
+
 		</div>
 
 	</div>

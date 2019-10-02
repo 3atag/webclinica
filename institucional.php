@@ -19,7 +19,7 @@
 
 </head>
 
-<body>
+<body class="institucional">
 
 	<?php
 	require("encabezado.php")

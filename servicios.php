@@ -56,8 +56,8 @@
 				<div class="submenu-mobile">
 					<h2>Internación</h2>
 
-					<button class="boton-submenu">
-						<span class="fas fa-indent fa"></span>
+					<button class="boton-submenu-nuestros">
+						<span class="fas fa-indent fa-2x"></span>
 					</button>
 				</div>
 
@@ -247,76 +247,79 @@
 
 				<div class="row mt-3">
 					<div class="col">
-						<div id="acordeon" class="acordeones">
+						<div id="acordeon" class="acordeones">						
 
-							<!-- Especialidad 1 -->
+							<?php
+							try {
+								require_once('includes/funciones/bd_conexion.php');
+								$consulta = "SELECT apellido_medico,
+													nombre_medico,
+													idEspecialidad,											
+													nombre_especialidad,
+													matricula
+												
+												FROM `medicos`
+												
+												INNER JOIN `especialidades`
+								  					
+													  ON medicos.especialidadId = especialidades.idEspecialidad
+														   
+												ORDER BY especialidades.nombre_especialidad ASC";
+
+								$datos = $con->query($consulta);
+							} catch (\Exception $e) {
+								echo $e->getMessage();
+							}
+							?>
+
+							<!-- Especialidad -->
+
+							<?php
+							$consultorios = array();
+							while ($fila = $datos->fetch_assoc()) {
+								
+								$especialidad = $fila['nombre_especialidad'];
+								
+								$medico = array(
+									'nombre' => $fila['apellido_medico'].' '.$fila['nombre_medico'],
+									'matricula' => $fila['matricula'],
+									'especilidad_id' => $fila['idEspecialidad'],
+								);
+
+								$consultorios[$especialidad][] = $medico;
+								
+								}
+								
+							foreach ($consultorios as $espe => $lista_medicos) { ?>
+
+				
 							<div class="card">
-								<div class="card-header" id="heading-anestesiologia">
+								<div class="card-header" id="heading-especialidad<?php echo $lista_medicos[0]['especilidad_id'];?>">
 									<h4 class="mb-0">
-										<button class="btn btn-link" data-toggle="collapse" data-target="#anestesiologia" aria-expanded="true" aria-controls="anestesiologia">
-											Anestesiología
+										<button class="btn btn-link" data-toggle="collapse" data-target="#especialidad<?php echo $lista_medicos[0]['especilidad_id'];?>" aria-expanded="true" aria-controls="cabezacuello">
+											<?php echo $espe; ?>
 										</button>
 									</h4>
 								</div> <!-- cierre card-header -->
 
-								<div id="anestesiologia" class="collapse" arial-labelledby="heading-anestesiologia" data-parent="#acordeon">
+								<div id="especialidad<?php echo $lista_medicos[0]['especilidad_id'];?>" class="collapse" arial-labelledby="heading-cabezacuello" data-parent="#acordeon">
+
+									<?php
+									foreach ($lista_medicos as $medicos) { ?>
 
 									<div class="medicos-especialidad card-body">
 
-										<p><span>Gonzalez Roberto Julio</span> - MP 220183</p>
-										<p><span>Jacovitti Daniel Ivan</span> - MP 95071</p>
-										<p><span>Rey Silvio Jose</span> - MP 112898</p>
+										<p><span><?php echo $medicos['nombre'] ?></span> - MP <?php echo $medicos['matricula'] ?></p>
 
 									</div> <!-- Cierre card-body -->
+									<?php } ?>
 
-								</div><!-- Cierre anestesiologia -->
-
-							</div> <!-- Cierre del card -->
-
-							<!-- Especialidad 2 -->
-							<div class="card">
-								<div class="card-header" id="heading-cabezacuello">
-									<h4 class="mb-0">
-										<button class="btn btn-link" data-toggle="collapse" data-target="#cabezacuello" aria-expanded="true" aria-controls="cabezacuello">
-											Cirugía Cabeza y Cuello
-										</button>
-									</h4>
-								</div> <!-- cierre card-header -->
-
-								<div id="cabezacuello" class="collapse" arial-labelledby="heading-cabezacuello" data-parent="#acordeon">
-
-									<div class="medicos-especialidad card-body">
-
-										<p><span>Carranza Eduardo</span> - MP 220183</p>
-
-									</div> <!-- Cierre card-body -->
-
-								</div><!-- Cierre anestesiologia -->
+								</div><!-- Cierre especialidad -->
 
 							</div> <!-- Cierre del card -->
+									<?php } ?>
 
-							<!-- Especialidad 3 -->
-							<div class="card">
-								<div class="card-header" id="heading-cirugeneral">
-									<h4 class="mb-0">
-										<button class="btn btn-link" data-toggle="collapse" data-target="#cirugeneral" aria-expanded="true" aria-controls="cabezacuello">
-											Cirugía General
-										</button>
-									</h4>
-								</div> <!-- cierre card-header -->
-
-								<div id="cirugeneral" class="collapse" arial-labelledby="heading-cirugeneral" data-parent="#acordeon">
-
-									<div class="medicos-especialidad card-body">
-
-										<p><span>Grignoli Luis</span> - MP 1544</p>
-
-									</div> <!-- Cierre card-body -->
-
-								</div><!-- Cierre anestesiologia -->
-
-							</div> <!-- Cierre del card -->
-
+							
 						</div> <!-- Cierre del acordeon -->
 
 					</div>

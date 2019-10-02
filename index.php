@@ -24,7 +24,8 @@
 
 			<?php
 
-				require("encabezado.php")
+				require("encabezado.php");
+				
 
 			?>
 

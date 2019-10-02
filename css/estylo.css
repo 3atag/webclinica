@@ -99,11 +99,19 @@ h4 {
 
 .contenido-botonera-header {
   display: flex;
-  justify-content: flex-end;
+  justify-content:space-between;
   align-items: center;
 }
 
+div.intranet-boton,
+div.contactos-consultorios {
+  display: flex;
+  align-items: center;
+}
+
+
 .contenido-botonera-header p {
+  
   margin-right: 2rem;
   color: white;
   font-size: .9rem;
@@ -183,6 +191,10 @@ h4 {
 
 .navegacion-principal li a:hover {
   border-bottom: 8px solid #486e7d;
+}
+
+.principalActivo {
+  border-bottom: 8px solid #486e7d !important;
 }
 
 
@@ -499,6 +511,13 @@ h4 {
 
 .submenu-nuestros {
   padding: .5rem 1rem;
+  display: none;
+}
+
+@media (min-width:768px) {
+  .submenu-nuestros {   
+    display: block;
+  }
 }
 
 .submenu-nuestros a {
@@ -549,21 +568,26 @@ h4 {
   border: none;
 }
 
-.boton-submenu {
-  margin-bottom: 0.5rem;
-}
-
-@media (min-width:768px) {
-  .boton-submenu {
-    display: none;
-  }
-}
-
 .submenu-mobile {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
 }
+
+.boton-submenu,
+.boton-submenu-nuestros {
+  margin-bottom: 0.5rem;
+  background: none;
+  border: 0;
+}
+
+@media (min-width:768px) {
+  .boton-submenu,
+  .boton-submenu-nuestros {
+    display: none;
+  }
+}
+
 
 .contenido-subpaginas {
   margin-top: 1rem;
@@ -601,7 +625,6 @@ h4 {
 
 .contenido-subpaginas h4 {
   margin-bottom: 2.5rem;
-  margin-top: 3rem;
   font-size: 1.5rem;
   padding-bottom: 1rem;
   border-bottom: #ccc solid 0.1rem;
