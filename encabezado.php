@@ -8,8 +8,8 @@
 			</div>
 
 			<div class="contactos-consultorios">
-				<p class="no-margin"><i class="fas fa-phone fa-rotate-90 fa-sm"></i> Policonsultorios: (02983) 431787 | 434300</p>
-				<p class="no-margin"><i class="fab fa-whatsapp fa-lg"></i> Turnos por Whatsapp: 2983559992</p>
+				<p class="no-margin"><i class="fas fa-phone fa-rotate-90 fa-sm"></i> <strong>Policonsultorios</strong> (02983) 431787 | 434300</p>
+				
 				<a href="https://turnoshispano.drapp.com.ar"><i class="fas fa-lock"></i><span>TURNOS ONLINE</span></a>
 			</div>
 

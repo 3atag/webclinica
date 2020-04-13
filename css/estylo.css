@@ -54,7 +54,7 @@ h4 {
 
 .vermas {
   text-transform: uppercase;
-  color: #486e7d;
+  color: #3496bc;
   font-size: 1.3rem;
   text-align: right;
   display: block;
@@ -63,7 +63,7 @@ h4 {
 
 .vermas:hover {
   text-decoration: none;
-  color: #486e7d;
+  color: #3496bc;
   opacity: .5;
 
 }
@@ -86,7 +86,7 @@ h4 {
 }
 
 .botonera-header {
-  background-color: #5e8392;
+  background-color: #a6c8e1;
   font-size: 1rem;
   border-bottom: 0.1rem solid #dcd6d6;
 }
@@ -113,7 +113,7 @@ div.contactos-consultorios {
 .contenido-botonera-header p {
   
   margin-right: 2rem;
-  color: white;
+  color: #333333;
   font-size: .9rem;
 }
 
@@ -126,8 +126,8 @@ div.contactos-consultorios {
 .contenido-botonera-header a {
   display: inline-block;
   padding: 0.5rem 1.3rem;
-  color: #ccc;
-  background: #486e7d;
+  color: white;
+  background: #3496bc;
 }
 
 .contenido-botonera-header a:hover {
@@ -190,7 +190,7 @@ div.contactos-consultorios {
 }
 
 .navegacion-principal li a:hover {
-  border-bottom: 8px solid #486e7d;
+  border-bottom: 8px solid #3496bc;
 }
 
 .principalActivo {
@@ -201,8 +201,8 @@ div.contactos-consultorios {
 /* Slider --- Usando Swiper */
 
 .swiper-container {
-  width: 100%;
-  height: 100%;
+  width: 90%;
+  height: 90%;
   position: relative;
   z-index: 1;
 }
@@ -237,9 +237,11 @@ div.contactos-consultorios {
 .cont-destacados h1 {
   font-size: 2.2rem;
   font-weight: 700;
-  padding-bottom: 1rem;
-  color: #486e7d;
-  margin-top: 1.5rem;
+  padding-bottom: .2rem;
+  color: #3496bc;
+  margin-top: 2.2rem;
+  margin-bottom: 1.6rem;
+  border-bottom: 3px solid #3496bc;
 }
 
 .articulos-destaca {
@@ -289,7 +291,7 @@ div.contactos-consultorios {
 }
 
 .contenido-desta a {
-  color: #486e7d;
+  color: #3496bc;
 }
 
 .contenido-desta a:hover {
@@ -407,7 +409,7 @@ div.contactos-consultorios {
 
 .site-footer {
   padding-top: 2rem;
-  background: #5e8392;
+  background: #a6c8e1;
 
 }
 
@@ -422,7 +424,7 @@ div.contactos-consultorios {
 }
 
 .final-footer {
-  background-color: #486e7d;
+  background-color: #3496bc;
 }
 
 .final-footer p {
@@ -431,7 +433,7 @@ div.contactos-consultorios {
 }
 
 .final-footer a {
-  color: #B2BABB;
+  color:white;
 }
 
 .menu-pie {

@@ -32,11 +32,11 @@
 	        <div id="sliderHead" class="row swiper-container">
 
 	        	<div class="swiper-wrapper">
-							<div class="swiper-slide"><img src="images/slider001.jpg" width="100%" /></div>
-							<div class="swiper-slide"><img src="images/slider002.jpg" width="100%" /></div>
-							<div class="swiper-slide"><img src="images/slider003.jpg" width="100%" /></div>
-							<div class="swiper-slide"><img src="images/slider004.jpg" width="100%" /></div>
-							<div class="swiper-slide"><img src="images/slider005.jpg" width="100%" /></div>	     
+							<div class="swiper-slide"><img src="images/sliderCovid01.jpg" width="100%" /></div>
+							<div class="swiper-slide"><img src="images/sliderCovid02.jpg" width="100%" /></div>
+							<div class="swiper-slide"><img src="images/sliderCovid03.jpg" width="100%" /></div>
+							<div class="swiper-slide"><img src="images/sliderCovid04.jpg" width="100%" /></div>
+							     
 						</div>
 					
 			    <!-- Add Arrows -->
@@ -47,49 +47,34 @@
 
 	        <main class="contenedor cont-destacados">
 
-	        	<h1>Destacados</h1>
+	        	<h1>DESTACADOS</h1>
 
 						<div class="articulos-destaca">
-						<article class="articulo-desta">
-							<a class="img-destaca" href="#">
-								<img src="images/preparto1.jpg" alt="Imagene Pla Pre-Parto">
-							</a>	
 						
-							<div class="contenido-desta">
-								<a class="titulo-destaca" href="#">
-									<h2>Conoce nuestro Plan Pre-Parto</h2>
-								</a>
-								<p>Lorem Ipsum
-									"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
-									"There is no one who loves pain itself, who seeks after it and wants to have it, simply because it is pain..."</p>
-
-								<a class="vermas" href="plandesalud.php">Conocer mas...</a>
-							</div>							
-						</article>
 
 						<article class="articulo-desta">
 							<a class="img-destaca" href="#">
-								<img src="images/patagonia.jpg" alt="Logo Banco Patagonia">
+								<img src="images/covid19ii.jpg" alt="Covid19 - Informacion Importante">
 							</a>
 
 							<div class="contenido-desta">
 								<a class="titulo-destaca" href="#">	
-									<h2>Debito autom&aacute;tico Banco Patagonia</h2>
+									<h2>Permanencia dentro de la institución</h2>
 								</a>
-								<p>Los clientes del BANCO PATAGONIA podran utilizar el servicio de debito automático para abonar las cuotas mensuales del Plan de Salud.</p>
+								<p>Recomendaciones importantes para acompañantes de pacientes internados....</p>
 
-								<a class="vermas" href="plandesalud.php">Conocer mas...</a>
+								<a class="vermas" href="#">Conocer mas...</a>
 							</div>
 						</article>
 
 						<article class="articulo-desta">
 							<a class="img-destaca" href="#">
-								<img src="images/pantomografo.jpg" alt="Imagen ortopantomografo">
+								<img src="images/nuestrosimg.jpg" alt="Imagen ortopantomografo">
 							</a>
 
 							<div class="contenido-desta">
 								<a class="titulo-destaca" href="#">	
-									<h2>Incorporaci&oacute;n de Ortopantomografo</h2>
+									<h2>Nuevo esquema de horarios</h2>
 								</a>
 
 								<p>Incorporó un ORTOPANTOMÓGRAFO PLAMECA PROMAX, de origen Finland&eacute;s para uso odontol&oacute;gico provisto de un sistema Laser Triple, que indica con precisi&oacute;n los correctos puntos anat&oacute;micos, de forma que la imagen sea sim&eacute;trica y sin distorsiones.</p>
@@ -100,7 +85,22 @@
 
 						<article class="articulo-desta">
 							<a class="img-destaca" href="#">
-								<img src="images/favacard.jpg" alt="">
+								<img src="images/covid19ii.jpg" alt="Covid19 - Informacion Importante">
+							</a>	
+						
+							<div class="contenido-desta">
+								<a class="titulo-destaca" href="#">
+									<h2>INFORMACIÓN IMPORTANTE</h2>
+								</a>
+								<p>Significado de contacto, significado de distanciamiento social, periodo de incubación y otros datos que debes conocer...</p>
+
+								<a class="vermas" href="#">Conocer mas...</a>
+							</div>							
+						</article>
+
+						<article class="articulo-desta">
+							<a class="img-destaca" href="#">
+								<img src="images/planaviso.jpg" alt="">
 							</a>
 
 							<div class="contenido-desta">
@@ -135,7 +135,7 @@
 	<script type="text/javascript" src="swiper/js/swiper.min.js"></script>
 	<script>
     var swiper = new Swiper('.swiper-container', {
-    	loop: true,
+		loop: true,
       navigation: {
         nextEl: '.swiper-button-next',
         prevEl: '.swiper-button-prev',
