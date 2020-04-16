@@ -44,11 +44,11 @@
 
 					<li class="navbar-item"><a href="servicios.php" class="text-uppercase nav-link">Nuestros servicios</a></li>
 
-					<li class="navbar-item"><a href="#" class="text-uppercase nav-link">Informaci&oacute;n para pacientes</a></li>
+					<li class="navbar-item"><a href="#" class="text-uppercase nav-link inactivo">Informaci&oacute;n para pacientes</a></li>
 
-					<li class="navbar-item"><a href="#" class="text-uppercase nav-link">Plan de Salud</a></li>
+					<li class="navbar-item"><a href="#" class="text-uppercase nav-link inactivo">Plan de Salud</a></li>
 
-					<li class="navbar-item"><a href="#" class="text-uppercase nav-link">Contacto</a></li>
+					<li class="navbar-item"><a href="#" class="text-uppercase nav-link inactivo">Contacto</a></li>
 
 					<li class="navbar-item"><a href="covid19.php" class="text-uppercase nav-link importante">COVID-19</a></li>
 				</ul>

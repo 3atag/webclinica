@@ -68,27 +68,25 @@
 
 
 					<section class="cont-valores">
-						<h3><span>&gt</span> Misión</h3>
+						<h3><span>&gt</span> Policonsultorios (9 de Julio 357)</h3>
 
 						<div class="cont-texto-valores">
-							<p>La Sociedad Española de Socorros Mutuos de Tres Arroyos es una entidad de carácter mutual que a través Clínica Privada Hispano Argentina brinda atención sanitaria a los miembros de la colectividad española y a toda la población del partido y zona de influencia.</p>
-
-							<p>Es nuestra prioridad brindar asistencia de alta calidad médica y personal, utilizando todos los recursos técnicos y humanos a nuestro alcance, comprometidos con la comunidad que nos sostiene y es nuestra razón de ser.</p>
+							<p><strong>Horario de atención</strong>: de <span class="importante">8:00</span> a <span class="importante">19:30</span> hs.</p>							
 						</div>
 
 					</section>
 
 
 					<section class="cont-valores">
-						<h3><span>&gt</span> Visión</h3>
+						<h3><span>&gt</span> Consultorios Pediatría (9 de Julio )</h3>
 
 						<div class="cont-texto-valores">
-							<p>Aspiramos a ser una institución en continuo crecimiento que cobije las necesidades sanitarias de una comunidad cada vez más amplia, pretendiendo conformar una red sanitaria de excelencia que brinde atención médica integral.</p>
+						<p><strong>Horario de atención</strong>: de <span class="importante">9:00</span> a <span class="importante">19:00</span> hs.</p>
 						</div>
 					</section>
 
 					<section class="cont-valores">
-						<h3><span>&gt</span> Valores</h3>
+						<h3><span>&gt</span> Diagnostico por Imágenes</h3>
 
 						<div class="cont-texto-valores">
 							<ul>
@@ -98,6 +96,32 @@
 								<li class="bg-success">Compromiso</li>
 							</ul>
 						</div>
+					</section>
+
+					<section class="cont-valores">
+						<h3><span>&gt</span> Laboratorio (LAB-INT)</h3>
+
+						
+					</section>
+
+					<section class="cont-valores">
+						<h3><span>&gt</span> Consultorios Oftalmológicos</h3>
+
+						<p><strong>Horario de atención</strong>: de <span class="importante">8:00</span> a <span class="importante">12:00</span> hs. y de <span class="importante">15:00</span> a <span class="importante">19:00</span> hs.</p> 
+
+						<p><a href="files/Protocolo de consulta oftalmologica en contexto de pandemia COVID-19.pdf" target="_blank" class="enlaceInterno"><i class="fas fa-angle-right"></i> Protocolo de consulta oftalmologica en contexto de pandemia COVID-19</a></p>
+					</section>
+
+					<section class="cont-valores">
+						<h3><span>&gt</span> Centro Cardiológico TA</h3>
+
+						
+					</section>
+
+					<section class="cont-valores">
+						<h3><span>&gt</span> Oficinas Administrativas</h3>
+
+						
 					</section>
 
 				</div>
