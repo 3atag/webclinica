@@ -24,8 +24,8 @@
 
 	<?php require("encabezado.php") ?>
 
-	<div class="subsite-header">
-		<div class="contenedor contenedor-subsite-header">
+	<div class="subsite-header serviciosback">
+		<div class="contenedor">
 			<h1>Nuestros servicios</h1>
 		</div>
 	</div>

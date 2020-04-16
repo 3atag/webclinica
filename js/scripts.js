@@ -14,12 +14,7 @@ $('#submenu-nuestros>a').on('click', function () {
 $(function () {
     'use strict';
 
-    /* Pagina activa en menu principal */
-
-    $('.navegacion-principal li a').on('click', function () {
-        $(this).addClass('activoPrin');
-
-    });
+     
 
     /* Tabs Subpagina nuestros */
 
@@ -57,6 +52,8 @@ $(function () {
     /* Pagina actual */
 
     $('body.institucional .navegacion-principal a:contains("Institucional")').addClass('principalActivo');
-    $('body.servicios .navegacion-principal a:contains("Nuestros servicios")').addClass('principalActivo');
+    $('body.servicios .navegacion-principal a:contains("Nuestros ")').addClass('principalActivo');
+
+    $('body.covid19 .navegacion-principal a:contains("COVID-19")').addClass('principalActivo');
     
 });

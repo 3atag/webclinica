@@ -73,6 +73,11 @@ h4 {
   color: white !important;
 }
 
+.importante {
+  color:red !important;
+  font-weight: bold;
+}
+
 
 /**** INDEX ****/
 
@@ -189,12 +194,21 @@ div.contactos-consultorios {
   border-bottom: 8px solid white;
 }
 
+
 .navegacion-principal li a:hover {
   border-bottom: 8px solid #3496bc;
 }
 
+.navegacion-principal li a.importante:hover {
+  border-bottom: 8px solid red;
+}
+
 .principalActivo {
-  border-bottom: 8px solid #486e7d !important;
+  border-bottom: 8px solid #3496bc !important;
+}
+
+ a.importante.principalActivo  {
+  border-bottom: 8px solid red !important;
 }
 
 
@@ -484,12 +498,24 @@ div.contactos-consultorios {
 .subsite-header {
   display: flex;
   align-items: flex-end;
-
   height: 20.5rem;
-  background-image: url("../images/institucional.jpg");
   background-position: center bottom;
   background-size: cover;
 }
+
+.institucionalback {
+  background-image: url("../images/institucional.jpg");  
+}
+
+.serviciosback {
+  background-image: url("../images/nuestros.jpg");  
+}
+
+.coronavirusback {
+  background-image: url("../images/coronavirus.jpg");  
+}
+
+
 
 .contenedor-subpaginas {
   margin-top: 1rem;

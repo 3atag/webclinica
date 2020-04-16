@@ -6,7 +6,7 @@
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-	<title>Clinica Privada Hispano Argentina - Institucional</title>
+	<title>Clinica Privada Hispano Argentina - Covid-19</title>
 
 
 	<!-- Hojas de CSS -->
@@ -19,16 +19,16 @@
 
 </head>
 
-<body class="institucional">
+<body class="covid19">
 
 	<?php
 	require("encabezado.php")
 	?>
 
-	<div class="subsite-header institucionalback">
+	<div class="subsite-header coronavirusback">
 
 		<div class="contenedor">
-			<h1>Institucional</h1>
+			<h1>Crisis Coronavirus</h1>
 		</div>
 
 	</div>
@@ -39,8 +39,8 @@
 			<nav class="navbar navbar-expand-md navbar-light" role="tablist">
 
 				<div id="submenu-institucional" class="submenu-institucional collapse navbar-collapse list-group list-group-flush">
-					<a href="#valores" class="primer-enlace-submenu list-group-item list-group-item-action active" data-toggle="list" role="tab" aria-controls="valores">Nuestros valores</a>
-					<a href="#historia" class="list-group-item list-group-item-action" data-toggle="list" role="tab" aria-controls="historia">Historia</a>
+					<a href="#valores" class="primer-enlace-submenu list-group-item list-group-item-action active" data-toggle="list" role="tab" aria-controls="valores">Cronogramas de atención</a>
+					<a href="#historia" class="list-group-item list-group-item-action" data-toggle="list" role="tab" aria-controls="historia">Régimenes de visita</a>
 					<a href="#autoridades" class="list-group-item list-group-item-action" data-toggle="list" role="tab" aria-controls="autoridades">Autoridades</a>
 					<a href="#comites" class="list-group-item list-group-item-action" data-toggle="list" role="tab" aria-controls="comites">Comites</a>
 					<a href="#ubicacion" class="list-group-item list-group-item-action" data-toggle="list" role="tab" aria-controls="ubicacion">Ubicaci&oacute;n</a>
@@ -59,7 +59,7 @@
 				<div class="valores tab-pane fade show active" id="valores" role="tabpanel" aria-labelledby="valores">
 
 					<div class="submenu-mobile">
-						<h2>Nuestros valores</h2>
+						<h2>Cronogramas de atención</h2>
 
 						<button class="boton-submenu ml-auto navbar-toggler" type="button" data-toggle="collapse" data-target="#submenu-institucional" aria-controls="submenu-institucional" aria-expanded="false" aria-label="sub-menu">
 							<span class="fas fa-indent fa-2x"></span>
