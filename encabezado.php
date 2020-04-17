@@ -7,6 +7,12 @@
 				<a href="https://intranet.clinicahispano.com.ar"><i class="fas fa-lock"></i><span>INTRANET</span></a>
 			</div>
 
+			<div>
+			<a href="https://www.facebook.com/clinicahispanoarg"><i class="fab fa-facebook-f"></i></a>
+			</div>
+
+			<a href="https://twitter.com/ClinicaHispano"><i class="fab fa-twitter"></i></a>
+
 			<div class="contactos-consultorios">
 				<p class="no-margin"><i class="fas fa-phone fa-rotate-90 fa-sm"></i> <strong>Policonsultorios</strong> (02983) 431787 | 434300</p>
 				
