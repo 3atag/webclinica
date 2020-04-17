@@ -63,7 +63,7 @@
 								</a>
 								<p>Recomendaciones importantes para acompañantes de pacientes internados....</p>
 
-								<a class="vermas" href="#">Conocer mas...</a>
+								<a class="vermas" href="covid19.php">Conocer mas...</a>
 							</div>
 						</article>
 
@@ -77,9 +77,9 @@
 									<h2>Nuevo esquema de horarios</h2>
 								</a>
 
-								<p>Incorporó un ORTOPANTOMÓGRAFO PLAMECA PROMAX, de origen Finland&eacute;s para uso odontol&oacute;gico provisto de un sistema Laser Triple, que indica con precisi&oacute;n los correctos puntos anat&oacute;micos, de forma que la imagen sea sim&eacute;trica y sin distorsiones.</p>
+								<p>Información importante sobre modificaciones recientes en los horarios de atención de los diferentes servicios.</p>
 
-								<a class="vermas" href="servicios.php">Conocer mas...</a>
+								<a class="vermas" href="covid19.php">Conocer mas...</a>
 							</div>
 						</article>
 
@@ -94,7 +94,7 @@
 								</a>
 								<p>Significado de contacto, significado de distanciamiento social, periodo de incubación y otros datos que debes conocer...</p>
 
-								<a class="vermas" href="#">Conocer mas...</a>
+								<a class="vermas" href="covid19.php">Conocer mas...</a>
 							</div>							
 						</article>
 
@@ -110,7 +110,7 @@
 								
 								<p>Los clientes de FAVACARD podran utilizar el servicio de debito autom&oacute;tico para abonar las cuotas mensuales del Plan de Salud.</p>
 
-								<a class="vermas" href="plandesalud.php">&plus; Conocer mas...</a>
+								<a class="vermas" href="#">&plus; Conocer mas...</a>
 							</div>	
 						</article>
 						</div>

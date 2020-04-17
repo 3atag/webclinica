@@ -40,12 +40,9 @@
 
 				<div id="submenu-institucional" class="submenu-institucional collapse navbar-collapse list-group list-group-flush">
 					<a href="#valores" class="primer-enlace-submenu list-group-item list-group-item-action active" data-toggle="list" role="tab" aria-controls="valores">Cronogramas de atención</a>
-					<a href="#historia" class="list-group-item list-group-item-action" data-toggle="list" role="tab" aria-controls="historia">Régimenes de visita</a>
-					<a href="#autoridades" class="list-group-item list-group-item-action" data-toggle="list" role="tab" aria-controls="autoridades">Autoridades</a>
-					<a href="#comites" class="list-group-item list-group-item-action" data-toggle="list" role="tab" aria-controls="comites">Comites</a>
-					<a href="#ubicacion" class="list-group-item list-group-item-action" data-toggle="list" role="tab" aria-controls="ubicacion">Ubicaci&oacute;n</a>
-					<!--<a href="" class="list-group-item list-group-item-action border-bottom-0" data-toggle="list" role="tab" aria-controls="trabaja">Trabaja con nosotros</a>-->
-
+					<a href="#historia" class="list-group-item list-group-item-action" data-toggle="list" role="tab" aria-controls="historia">Horarios de visita</a>
+					<a href="#autoridades" class="list-group-item list-group-item-action" data-toggle="list" role="tab" aria-controls="autoridades">Recomendaciones</a>
+					
 				</div>
 
 			</nav>
@@ -61,14 +58,21 @@
 					<div class="submenu-mobile">
 						<h2>Cronogramas de atención</h2>
 
+						
+
 						<button class="boton-submenu ml-auto navbar-toggler" type="button" data-toggle="collapse" data-target="#submenu-institucional" aria-controls="submenu-institucional" aria-expanded="false" aria-label="sub-menu">
 							<span class="fas fa-indent fa-2x"></span>
 						</button>
-					</div>
 
+						
+					</div>
+					<div class="fondoRojo">
+					<p>Los pacientes que concurran a los siguientes servicios deberán mantener distancia social de <strong>1 metro</strong>.</p>
+					</div>
+					
 
 					<section class="cont-valores">
-						<h3><span>&gt</span> Policonsultorios (9 de Julio 357)</h3>
+						<h3><span>&gt</span> Policonsultorios <span class="subtexto">| 9 de Julio 357</span></h3>
 
 						<div class="cont-texto-valores">
 							<p><strong>Horario de atención</strong>: de <span class="importante">8:00</span> a <span class="importante">19:30</span> hs.</p>							
@@ -78,7 +82,7 @@
 
 
 					<section class="cont-valores">
-						<h3><span>&gt</span> Consultorios Pediatría (9 de Julio )</h3>
+						<h3><span>&gt</span> Consultorios Pediatría <span class="subtexto">| 9 de Julio 375</span></h3>
 
 						<div class="cont-texto-valores">
 						<p><strong>Horario de atención</strong>: de <span class="importante">9:00</span> a <span class="importante">19:00</span> hs.</p>
@@ -86,40 +90,74 @@
 					</section>
 
 					<section class="cont-valores">
-						<h3><span>&gt</span> Diagnostico por Imágenes</h3>
+						<h3><span>&gt</span> Diagnostico por Imágenes <span class="subtexto">| Dorrego 256</span></h3>
 
 						<div class="cont-texto-valores">
-							<ul>
-								<li class="bg-info">Solidaridad</li>
-								<li class="bg-secondary">Ética</li>
-								<li class="bg-danger">Responsabilidad</li>
-								<li class="bg-success">Compromiso</li>
-							</ul>
+						<p><strong>Horario de atención</strong>: de <span class="importante">8:00</span> a <span class="importante">19:30</span> hs.</p>
 						</div>
+						
 					</section>
 
 					<section class="cont-valores">
 						<h3><span>&gt</span> Laboratorio (LAB-INT)</h3>
+						<div class="cont-texto-valores">
+						<p><strong>Horario de atención</strong>: de <span class="importante">8:00</span> a <span class="importante">20:00</span> hs.</p>
 
+						<p><strong>IMPORTANTE: </strong> Solicite servicio "a domicilio" si no puede acercarse al laboratorio.</p>
+
+						<p><strong>Autorizaciones y resultados por WhatsApp</strong> <span class="importante">2983-574274</span></p>
+						
+						</div>
 						
 					</section>
 
 					<section class="cont-valores">
 						<h3><span>&gt</span> Consultorios Oftalmológicos</h3>
-
+						<div class="cont-texto-valores">
 						<p><strong>Horario de atención</strong>: de <span class="importante">8:00</span> a <span class="importante">12:00</span> hs. y de <span class="importante">15:00</span> a <span class="importante">19:00</span> hs.</p> 
 
 						<p><a href="files/Protocolo de consulta oftalmologica en contexto de pandemia COVID-19.pdf" target="_blank" class="enlaceInterno"><i class="fas fa-angle-right"></i> Protocolo de consulta oftalmologica en contexto de pandemia COVID-19</a></p>
+						</div>
 					</section>
 
 					<section class="cont-valores">
 						<h3><span>&gt</span> Centro Cardiológico TA</h3>
+						<div class="cont-texto-valores">
+						<p><strong>Horario de atención</strong>: de <span class="importante">8:00</span> a <span class="importante">13:00</span> hs. y de <span class="importante">14:00</span> a <span class="importante">19:00</span></p>
+						
+						<p><strong>Por recetas y consultas impostergables</strong></p>
+						<p><span>DRA MORTATI: </span>Lunes a Jueves de <span class="importante">14:00</span> a <span class="importante">16:20</span> hs.</p> 
+
+						<p><span>DR FERRARI: </span>Lunes a Jueves de <span class="importante">08:30</span> a <span class="importante">12:00</span> hs.</p> 
+
+						<p><span>DR LOPEZ SOUTRIC: </span>Lunes a Viernes de <span class="importante">09:00</span> a <span class="importante">12:00</span> hs.</p> 
+
+						</div>
+						
+					</section>
+
+					<section class="cont-valores">
+						<h3><span>&gt</span> Area Contable</h3>
+						<div class="cont-texto-valores">
+						<p><strong>Horarios de atención</strong></p>
+						<p><span>PROVEEDORES: </span>Martes y Jueves de <span class="importante">9:00</span> a <span class="importante">12:00</span> hs.</p> 
+						
+
+						<p><span>PERSONAL Y MEDICOS:</span>	Viernes de <span class="importante">9:00</span> a <span class="importante">12:00</span> hs.</p> 
+						<p><strong>IMPORTANTE</strong></p>
+						<p>Se permite un <strong>máximo de 2 (dos) personas</strong> dentro del área de espera</p>
+						<p>Consultas únicamente por teléfono al <strong>02983-431365 int 119</strong>, o email <strong>eflorez@clinicahispano.com.ar</strong>.</p>
+						</div>
 
 						
 					</section>
 
 					<section class="cont-valores">
-						<h3><span>&gt</span> Oficinas Administrativas</h3>
+						<h3><span>&gt</span> Atención ART</h3>
+
+						<div class="cont-texto-valores">
+						<p><strong>Horario de atención</strong>: de <span class="importante">8:00</span> a <span class="importante">14:00</span> hs.</p>
+						</div>
 
 						
 					</section>
@@ -129,179 +167,37 @@
 				<div class="tab-pane fade show" id="historia" role="tabpanel" aria-labelledby="historia">
 
 					<div class="submenu-mobile">
-						<h2>Historia</h2>
+						<h2>Horarios de visita</h2>
 
 						<button class="boton-submenu ml-auto navbar-toggler" type="button" data-toggle="collapse" data-target="#submenu-institucional" aria-controls="submenu-institucional" aria-expanded="false" aria-label="sub-menu">
 							<span class="fas fa-indent fa-2x"></span>
 						</button>
+
+						
 					</div>
 
-					<p>La SOCIEDAD ESPAÑOLA DE SOCORROS MUTUOS fue fundada en 1888, 4 años después de la fundación de la ciudad de Tres Arroyos, en una sociedad nutrida por la llegada de inmigrantes y nuevos paisanos que se asentaban en el pueblo.</p>
-					<p>Esta entidad sin fines de lucro comenzó a influir fuertemente en la población en crecimiento, y de la misma manera que en tantos otros puntos del país, se comenzó a preocupar por el bienestar de los habitantes establecidos. Es así como se decide crear una institución que velara por la salud de los ciudadanos, inaugurando en el año 1936 el “SANATORIO HISPANO ARGENTINO DE TRES ARROYOS” en el edificio que tiene entrada por la calle Dorrego nº 268. Si bien en su origen fue ideada para ciudadanos españoles, desde el inicio fue abierta a toda la población.</p>
-					<p>Bajo la Dirección del Dr. Fernando Pérez Botella, abrió sus puertas con diez habitaciones, una sala de partos y un quirófano. Su staff contaba con diez médicos en la ciudad y seis en las localidades.
-						Desde entonces hasta la fecha, el desarrollo y el crecimiento han sido la constante en su evolución, incorporando en pasos sucesivos, el edificio de la esquina de 9 de Julio y Dorrego y luego las habitaciones del piso superior para ampliar la superficie de internación.</p>
-					<p>A lo largo de su trayectoria, la Clínica ha acompañado el progreso y la evolución de la medicina, por lo que se fueron sumando prestaciones nuevas de forma constante como el servicio de Hemodiálisis, el servicio de Radiodiagnóstico, la guardia de Pediatría y las áreas de Consultorios Externos (primero alquilando y luego adquiriendo un edificio propio en 9 de Julio 357).</p>
-					<p>En los últimos años, los lazos con el gobierno de España, se estrecharon, a través de la Consejería de Empleo y Seguridad Social de Bahía Blanca, otorgándole a nuestra Institución diversos subsidios, que le permitieron concretar los proyectos planteados: un sector nuevo para la Maternidad y otro para la Unidad de Terapia Intensiva, la ampliación del área de Quirófanos y la creación de una Central de Esterilización.</p>
-					<p>Adicionalmente se ha avanzado desde el ámbito científico incorporando nuevas tecnologías y formando al personal desde diversas iniciativas. Una de ellas fue la creación del Comité de Control de Infecciones, que desarrolla sus actividades desde hace más de 20 años, sumando en 2015 al Comité de Docencia e Investigación, que sesiona y convoca a actividades ateneos y jornadas permanentemente.</p>
-					<p>Luego de todos los esfuerzos y avances que se han logrado, hoy la Clínica Privada Hispano Argentina es una institución consolidada, de reconocida trayectoria y actualidad. Cuenta en su edificio con 3 quirófanos, un sector de maternidad totalmente renovado, el área de internación de piso con 38 camas en habitaciones compartidas y 14 camas individuales, la Unidad de Terapia Intensiva nueva y equipada con 5 camas y 3 camas de observación. Su equipo de trabajo está conformado por más de 140 empleados y 200 profesionales que prestan servicios en sus instalaciones. Asimismo, cuenta con diversos proyectos de crecimiento para el futuro.</p>
-					<p>El desafío y el compromiso de las autoridades actuales es honrar los principios que guiaron a aquellos pioneros que soñaron con darle algo mejor al pueblo de Tres Arroyos, y continuando con su legado, hacer que la Clínica Privada Hispano Argentina siga siendo un lugar donde la comunidad se sienta contenida y segura de recibir una atención médica confiable, responsable, actualizada y de calidad, hoy y en los años por venir.</p>
+					<div class="fondoRojo">
+					<p>SE PROHIBE LA PERMANENCIA DE PERSONAS EN LOS PASILLOS</p>
+					</div>
+
+					<img src="images/visitasCovid.jpg" alt="Visitas especiales Covid-19">
+
+				
+
 				</div>
 
 				<div class="tab-pane fade show" id="autoridades" role="tabpanel" aria-labelledby="autoridades">
 
 					<div class="submenu-mobile">
-						<h2>Autoridades</h2>
+						<h2>Recomendaciones del equipo de salud</h2>
 						<button class="boton-submenu ml-auto navbar-toggler" type="button" data-toggle="collapse" data-target="#submenu-institucional" aria-controls="submenu-institucional" aria-expanded="false" aria-label="sub-menu">
 							<span class="fas fa-indent fa-2x"></span>
 						</button>
 					</div>
 
-					<h3 class=""><span>&gt</span> Comisión Directiva de Sociedad Española de Soccorros Mutuos de Tres Arroyos</h3>
+					<img src="images/informacionResumen.jpg" alt="Visitas especiales Covid-19">
 
-					<div class="contenedor-autoridades">
-
-						<div class="contenedor-consejo">
-
-							<div class="row">
-
-								<div class="col">
-
-									<dl>
-										<dt>Presidente</dt>
-										<dd>GARCIA, Roberto Mariano</dd>
-									</dl>
-
-									<dl>
-										<dt>Secretario</dt>
-										<dd>SORIANO, Oscar</dd>
-									</dl>
-
-									<dl>
-										<dt>Tesorero</dt>
-										<dd>PAIZ, Juan Carlos</dd>
-									</dl>
-
-									<dl>
-										<dt>Vocales titulares</dt>
-										<dd>HARISTOY, Juan Carlos</dd>
-										<dd>SORIANO, Marta Mabel</dd>
-										<dd>JACOBSEN, Andres</dd>
-									</dl>
-
-								</div>
-
-								<div class="col">
-
-									<dl>
-										<dt>Vicepresidente</dt>
-										<dd>RENAUD, Raul Alberto</dd>
-									</dl>
-
-									<dl>
-										<dt>Pro-secretario</dt>
-										<dd>PILI, Juan Carlos</dd>
-									</dl>
-
-									<dl>
-										<dt>Pro-tesorero</dt>
-										<dd>PIDAL, Martin</dd>
-									</dl>
-
-									<dl>
-										<dt>Vocales suplentes</dt>
-										<dd>ARMENDARIZ, Cristina</dd>
-										<dd>PAGH, Felix</dd>
-										<dd>FORTE, Manuel</dd>
-									</dl>
-
-								</div>
-
-							</div>
-
-							<h4 class="text-uppercase">Comisión revisora de cuentas</h4>
-
-							<div class="contenedor-cuentas">
-
-								<div class="row">
-
-									<div class="col">
-										<dl>
-											<dt>Titulares</dt>
-											<dd>VIÑAMBRES, Daniel Norberto</dd>
-											<dd>CAMPANO, Raul</dd>
-											<dd>FAUZE, Humberto Ramon</dd>
-										</dl>
-
-									</div>
-
-									<div class="col">
-
-										<dl>
-											<dt>Suplentes</dt>
-											<dd>BASUALDO, Jose Maria</dd>
-											<dd>RUSCONI, Carlos Alberto</dd>
-											<dd>AYALA, Ramon Andres</dd>
-										</dl>
-
-									</div>
-								</div>
-
-							</div>
-
-							<h4 class="text-uppercase">Honorable jurado</h4>
-
-							<div class="contenedor-jurado">
-
-								<div class="row">
-
-									<div class="col">
-										<dl>
-											<dt>Titulares</dt>
-											<dd>ARENAS, Eduardo Adrian</dd>
-											<dd>MIRASSO, Eduardo Carlos</dd>
-											<dd>RODRIGUEZ, Carlos Alberto</dd>
-										</dl>
-
-									</div>
-
-									<div class="col">
-										<dl>
-											<dt>Suplentes</dt>
-											<dd>TENAGLIA, Eduardo Francisco</dd>
-											<dd>GALILEA, Eugenio</dd>
-											<dd>DUCA, Luciano Ezequiel</dd>
-										</dl>
-
-									</div>
-
-								</div>
-
-							</div>
-						</div>
-
-						<h3 class=""><span>&gt</span> Direccion médica</h3>
-
-						<div class="contenedor-direccion-med">
-
-							<div class="row">
-								<div class="col">
-									<p>Dr. Desperes, Sebastian</p>
-								</div>
-							</div>
-						</div>
-
-						<h3 class=""><span>&gt</span> Direccion administrativa y finanzas</h3>
-
-						<div class="contenedor-direccion-adm">
-
-							<div class="row">
-								<div class="col">
-									<p>Dr. Byrne, Juan Carlos</p>
-								</div>
-							</div>
-						</div>
-
-					</div>
+					
 				</div>
 
 				<div class="tab-pane fade show" id="comites" role="tabpanel" aria-labelledby="comites">

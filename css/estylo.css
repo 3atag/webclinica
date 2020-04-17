@@ -97,6 +97,22 @@ a:link, a:visited, a:active {
   font-size: 1.5rem;
 }
 
+.fondoRojo {
+  -webkit-border-radius: 6px;
+-moz-border-radius: 6px;
+border-radius: 6px;
+  padding:0 .8rem;
+  background-color: #dc3545;
+  color:white;
+  margin-bottom:2rem;
+}
+
+.subtexto {
+  font-size: 1.8rem;
+  font-weight: normal !important;
+  color:#495057;
+  
+}
 /**** INDEX ****/
 
 /* Header */
@@ -663,7 +679,7 @@ div.contactos-consultorios {
   padding-bottom: .8rem;
   color: #486e7d;
   font-size: 2.2rem;
-  border-bottom: 2px solid #486e7d;
+  border-bottom: 1px solid rgb(192, 188, 188);
 }
 
 .contenido-subpaginas h3 span {
