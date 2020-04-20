@@ -148,9 +148,28 @@ div.contactos-consultorios {
   align-items: center;
 }
 
+div.contenido-botonera-header .redesSociales {
+  margin-left: 1rem;
+}
+
+div.contenido-botonera-header .redesSociales a {
+  padding: 0; 
+  background-color: #ccc;
+  margin-left: .8rem;
+  background-color: #a6c8e1;
+}
+
+div.contenido-botonera-header .redesSociales a i {
+  margin:0;
+  color: #303030;
+}
+
+div.contenido-botonera-header .redesSociales a i:hover {
+  opacity: .5;
+}
 
 .contenido-botonera-header p {
-  
+  display: none;
   margin-right: 2rem;
   color: #333333;
   font-size: .9rem;
@@ -159,6 +178,12 @@ div.contactos-consultorios {
 @media (min-width:768px) {
   .contenido-botonera-header p {
     font-size: 1.3rem;
+  }
+}
+
+@media (min-width:524px) {
+  .contenido-botonera-header p {
+    display: block;
   }
 }
 

@@ -5,13 +5,13 @@
 		<div class="contenedor contenido-botonera-header">
 			<div class="intranet-boton">
 				<a href="https://intranet.clinicahispano.com.ar"><i class="fas fa-lock"></i><span>INTRANET</span></a>
+				<div class="redesSociales">
+					<a href="https://www.facebook.com/clinicahispanoarg" target="_blank"><i class="fab fa-facebook-f fa-lg"></i></a>	
+					<a href="https://twitter.com/ClinicaHispano" target="_blank"><i class="fab fa-twitter fa-lg"></i></a>
+					<a href="https://www.youtube.com/channel/UCBChz58T2FkQRfSIxOXBJ-A/about?view_as=subscriber" target="_blank"><i class="fab fa-youtube fa-lg"></i></a>
 			</div>
-
-			<div>
-			<a href="https://www.facebook.com/clinicahispanoarg"><i class="fab fa-facebook-f"></i></a>
 			</div>
-
-			<a href="https://twitter.com/ClinicaHispano"><i class="fab fa-twitter"></i></a>
+			
 
 			<div class="contactos-consultorios">
 				<p class="no-margin"><i class="fas fa-phone fa-rotate-90 fa-sm"></i> <strong>Policonsultorios</strong> (02983) 431787 | 434300</p>

@@ -10,8 +10,8 @@
 				<li><a href="#">Informaci&oacute;n para pacientes</a></li>
 				<li><a href="#">Plan de Salud</a></li>
 				<li><a href="#">Contacto</a></li>
-				<li><a href="#">Turnos</a></li>
-				<li><a href="#">Intranet</a></li>'
+				<li><a href="https://turnoshispano.drapp.com.ar" target="_blank">Turnos</a></li>
+				<li><a href="https://intranet.clinicahispano.com.ar">Intranet</a></li>'
 				
 			</ul>
 		</div> <!-- Fin menu PIE -->
@@ -34,7 +34,7 @@
 			<p class="subtitulo-footer ml-2 mt-2 mb-1"><strong>Servicio de Diagnostico por Im&aacute;genes</strong></p>
 
 			<p class="direcciones-footer ml-2 mb-0">
-			Dorrego 279 - CP B7500FZE - Tres Arroyos | (02983) 431369</p>
+			Dorrego 256 - CP B7500FZE - Tres Arroyos | (02983) 431369</p>
 
 			<p class="subtitulo-footer ml-2 mt-2 mb-1"><strong>Medicina laboral | Policonsultorios | Plan se Salud</strong></p>
 
@@ -45,7 +45,7 @@
 
 		<div class="enlaces-pie">			
 
-			<a href="http://qr.afip.gob.ar/?qr=EmW9Q6D2GIHTU29mGVwwtw,," target="_F960AFIPInfo"><img src="http://www.afip.gob.ar/images/f960/DATAWEB.jpg" border="0" width="50px"></a>
+			<a href="http://qr.afip.gob.ar/?qr=EmW9Q6D2GIHTU29mGVwwtw,," target="_F960AFIPInfo"><img src="images/DATAWEB.jpg" border="0" width="50px"></a>
 
 			<?php echo '
 

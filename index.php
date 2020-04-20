@@ -108,7 +108,7 @@
 									<h2>Debito autom&aacute;tico Favacard</h2>
 								</a>
 								
-								<p>Los clientes de FAVACARD podran utilizar el servicio de debito autom&oacute;tico para abonar las cuotas mensuales del Plan de Salud.</p>
+								<p>Los clientes de FAVACARD podran utilizar el servicio de debito automático para abonar las cuotas mensuales del Plan de Salud.</p>
 
 								<a class="vermas" href="#">&plus; Conocer mas...</a>
 							</div>	
